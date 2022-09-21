@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .sized-container{
@@ -22,24 +23,99 @@
     min-height: inherit;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 #tophd{
     display: flex;
     flex-direction: row; /* Default Direction */
 }
-#tophd aside:first-child{
-    background-color: red;
+#tophd a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
 }
-#tophd aside:last-child{
-    background-color: blue;
+#tophd i{
+    margin-right: 3px;
+}
+#tophd aside:first-child{
+    flex-grow: 1;
+}
+#tophd aside:first-child a{
+    margin-right: 15px;
+}
+#tophd aside:last-child a{
+    margin-left: 15px;
 }
 
 #mainhd{
-
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#mainhd h1{
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+#mainhd button{
+    margin-left: 15px;
+    padding: 2px 4px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
 }
 
 
 /* Nav Styles */
-
+#menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 20px;
+}
 
 
 /* Banner Styles */
+#banner aside{
+    min-height: 400px;
+    margin: 50px 0;
+    max-width: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#banner h4{
+    font-weight: normal;
+    text-shadow: 0 0 10px black;
+}
+#banner h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px black;
+}
+#banner p{
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px black;
+}
+
+#banner a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 4px;
+}
+#contactBtn{
+    background-color: #353034;
+}
+#readBtn{
+    background-color: #02c162;
+}
