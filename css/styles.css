@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sized-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 4px 8px;
+}
+
+/* Header Styles */
+#hdcontainer{
+    min-height: 400px;
+    background-color: lightgray;
+    background-image: url('../images/bg_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#hdcontent{
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#tophd{
+    display: flex;
+    flex-direction: row; /* Default Direction */
+}
+#tophd aside:first-child{
+    background-color: red;
+}
+#tophd aside:last-child{
+    background-color: blue;
+}
+
+#mainhd{
+
+}
+
+
+/* Nav Styles */
+
+
+
+/* Banner Styles */
